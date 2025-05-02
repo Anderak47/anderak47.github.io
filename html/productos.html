@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiadores Alvites Cajamarca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesHtml.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="data:,">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/headerFooter.js" defer></script>
+    <script src="/js/animaciones.js" defer></script>
+    <script src="/js/funcionesComunes.js" defer></script>
+    <script src="/js/funcionVarCategorias.js" defer></script>
+
+</head>
+
+<body>
+    <header id="header-container"></header>
+    <div class="container">
+        <section aria-labelledby="titulo-productos">
+            <h2 id="titulo-productos" class="negrita tituloBlack efectSombra espacioTitulo">NUESTROS PRODUCTOS</h2>
+            <div class="decorative-line" aria-hidden="true"></div>
+            <p class="textLlamativo">Adaptamos, fabricamos y mejoramos radiadores e intercambiadores de calor según las
+                necesidades de nuestros clientes.</p>
+
+            <!-- Slider con imagen izquierda y texto derecha -->
+            <div class="split-slider-container" role="region" aria-labelledby="productos-slider">
+                <div class="split-slider" id="split-slider">
+                    <!-- Radiadores -->
+                    <div class="split-slide" data-categoria="radiadores">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/radiadorLiviano.webp" fetchpriority="high" width="478" height="414"
+                                    alt="Radiador en un vehículo, solución térmica" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Radiadores</h3>
+                                <p class="descripcion">Solución térmica para todo tipo de vehículos y maquinaria pesada
+                                </p>
+                                <button class="btn-info" id="btn-info-radiadores"
+                                    aria-label="Más información sobre radiadores">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Condensadores -->
+                    <div class="split-slide" data-categoria="condensadores">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/condensadores.webp" width="455" height="482"
+                                    alt="Condensadores utilizados en enfriadores de aire" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Condensadores</h3>
+                                <p class="descripcion">Enfriadores de aire para motores turboalimentados</p>
+                                <button class="btn-info" id="btn-info-condensadores"
+                                    aria-label="Más información sobre condensadores">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intercoolers -->
+                    <div class="split-slide" data-categoria="intercoolers">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/intercoolers.webp" width="359" height="385"
+                                    alt="Intercooler enfriando aire para motores turboalimentados" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Intercoolers</h3>
+                                <p class="descripcion">Enfriadores de aire para motores turboalimentados</p>
+                                <button class="btn-info" id="btn-info-intercoolers"
+                                    aria-label="Más información sobre intercoolers">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ventiladores -->
+                    <div class="split-slide" data-categoria="ventiladores">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/ventilador.webp" loading="lazy" width="418" height="333"
+                                    alt="Ventilador de alto rendimiento en sistema de enfriamiento" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Ventiladores</h3>
+                                <p class="descripcion">Sistemas de enfriamiento de alto rendimiento</p>
+                                <button class="btn-info" id="btn-info-ventiladores"
+                                    aria-label="Más información sobre ventiladores">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calefactores -->
+                    <div class="split-slide" data-categoria="calefactores">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/calefactores.webp" loading="lazy" width="359" height="375"
+                                    alt="Calefactor utilizado en sistemas de calefacción para cabinas" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Calefactores</h3>
+                                <p class="descripcion">Sistemas de calefacción para cabinas y habitáculos</p>
+                                <button class="btn-info" id="btn-info-calefactores"
+                                    aria-label="Más información sobre calefactores">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accesorios -->
+                    <div class="split-slide" data-categoria="accesorios">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/accesorios.webp" loading="lazy" width="313" height="372"
+                                    alt="Accesorios para sistemas de enfriamiento" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Accesorios</h3>
+                                <p class="descripcion">Componentes complementarios para sistemas de enfriamiento</p>
+                                <button class="btn-info" id="btn-info-accesorios"
+                                    aria-label="Más información sobre accesorios">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Refrigerantes -->
+                    <div class="split-slide" data-categoria="refrigerantes">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/refrigerante.webp" loading="lazy" width="331" height="398"
+                                    alt="Refrigerantes para sistemas de enfriamiento" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Refrigerantes</h3>
+                                <p class="descripcion">Fluidos especializados para sistemas de enfriamiento</p>
+                                <button class="btn-info" id="btn-info-refrigerantes"
+                                    aria-label="Más información sobre refrigerantes">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fabricación de Radiadores -->
+                    <div class="split-slide" data-categoria="radiadores">
+                        <div class="split-content">
+                            <div class="image-content">
+                                <img src="/img/radiador.webp" loading="lazy" width="478" height="415"
+                                    alt="Fabricación de radiadores para sistemas de enfriamiento" />
+                            </div>
+                            <div class="text-content">
+                                <h3 class="negrita">Fabricación de Radiadores</h3>
+                                <p class="descripcion">Soluciones personalizadas en diseño y producción de radiadores</p>
+                                <button class="btn-info" id="btn-info-fabricacion"
+                                    aria-label="Más información sobre fabricación de radiadores">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles del slider -->
+                <div class="slider-controls" role="navigation" aria-label="Controles de navegación del slider">
+                    <div class="dots-container" id="slider-dots"></div>
+                </div>
+            </div>
+
+            <!-- Modales -->
+            <div class="modal-productos" id="modal-productos" role="dialog" aria-labelledby="modal-productos-titulo"
+                aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-productos-titulo">Radiadores</h3>
+                        <div class="modal-tabs" role="tablist">
+                            <button class="modal-tab active" role="tab" aria-selected="true"
+                                data-categoria="livianos">Livianos</button>
+                            <button class="modal-tab" role="tab" aria-selected="false"
+                                data-categoria="pesados">Pesados</button>
+                            <button class="modal-tab" role="tab" aria-selected="false"
+                                data-categoria="linea_amarilla">Línea Amarilla</button>
+                        </div>
+                        <button class="cerrar-modal" aria-label="Cerrar el modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="radiadores-slider" role="region" aria-live="polite"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="radiadores-dots" role="navigation"
+                                    aria-label="Puntos de navegación del slider"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="radiadores-titulo">Título del Producto</h4>
+                            <p id="radiadores-descripcion">Descripción del producto seleccionado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Accesorios -->
+            <div class="modal-productos" id="modal-accesorios" role="dialog" aria-labelledby="modal-accesorios-titulo"
+                aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-accesorios-titulo">Accesorios</h3>
+                        <div class="modal-tabs">
+                            <button class="modal-tab active" data-categoria="bridas">Bridas</button>
+                            <button class="modal-tab" data-categoria="tapas">Tapas</button>
+                            <button class="modal-tab" data-categoria="tanques">Tanques</button>
+                            <button class="modal-tab" data-categoria="canieriaAgua">Cañerias de Agua</button>
+                        </div>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="accesorios-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="accesorios-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="accesorios-titulo">Título del Producto</h4>
+                            <p id="accesorios-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Refrigerantes -->
+            <div class="modal-productos" id="modal-refrigerantes" role="dialog"
+                aria-labelledby="modal-refrigerantes-titulo" aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-refrigerantes-titulo">Refrigerantes</h3>
+                        <div class="modal-tabs">
+                            <button class="modal-tab active" data-categoria="galon">Galón</button>
+                            <button class="modal-tab" data-categoria="balde">Balde</button>
+                            <button class="modal-tab" data-categoria="aditivos">Aditivos</button>
+                        </div>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="refrigerantes-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="refrigerantes-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="refrigerantes-titulo">Título del Producto</h4>
+                            <p id="refrigerantes-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Fabricación -->
+            <div class="modal-productos" id="modal-fabricacion" role="dialog" aria-labelledby="modal-fabricacion-titulo"
+                aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-fabricacion-titulo">Fabricación</h3>
+                        <div class="modal-tabs">
+                            <button class="modal-tab active" data-categoria="aluminio">Radiadores de Aluminio</button>
+                            <button class="modal-tab" data-categoria="bronce">Radiadores de Bronce</button>
+                        </div>
+                        <button class="cerrar-modal" aria-label="Cerrar modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="fabricacion-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="fabricacion-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="fabricacion-titulo">Título del Producto</h4>
+                            <p id="fabricacion-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Condensadores -->
+            <div class="modal-productos" id="modal-condensadores" role="dialog"
+                aria-labelledby="modal-condensadores-titulo" aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-condensadores-titulo">Condensadores</h3>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="condensadores-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="condensadores-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="condensadores-titulo">Título del Producto</h4>
+                            <p id="condensadores-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Intercoolers -->
+            <div class="modal-productos" id="modal-intercoolers" role="dialog"
+                aria-labelledby="modal-intercoolers-titulo" aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-intercoolers-titulo">Intercoolers</h3>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="intercoolers-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="intercoolers-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="intercoolers-titulo">Título del Producto</h4>
+                            <p id="intercoolers-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Ventiladores -->
+            <div class="modal-productos" id="modal-ventiladores" role="dialog"
+                aria-labelledby="modal-ventiladores-titulo" aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-ventiladores-titulo">Ventiladores</h3>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="ventiladores-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="ventiladores-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="ventiladores-titulo">Título del Producto</h4>
+                            <p id="ventiladores-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Calefactores -->
+            <div class="modal-productos" id="modal-calefactores" role="dialog"
+                aria-labelledby="modal-calefactores-titulo" aria-hidden="true">
+                <div class="modal-contenido-producto">
+                    <div class="modal-header">
+                        <h3 id="modal-calefactores-titulo">Calefactores</h3>
+                        <button class="cerrar-modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="productos-container">
+                            <div class="productos-slider" id="calefactores-slider"></div>
+                            <div class="productos-controls">
+                                <div class="productos-dots" id="calefactores-dots"></div>
+                            </div>
+                        </div>
+
+                        <div class="producto-info">
+                            <h4 id="calefactores-titulo">Título del Producto</h4>
+                            <p id="calefactores-descripcion">Descripción del producto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=51969774973" target="_blank" class="whatsapp-btn"
+        aria-label="Contáctanos por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <div id="footer-container"></div>
+
+
+</body>
+
+</html>

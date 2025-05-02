@@ -1,0 +1,1187 @@
+/* ======================
+   🎯 SECCIÓN DE INICIO PRIMERA SECCION
+   ====================== */
+/* Contenedor principal */
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(to right, #1c1d1d, #2c2c2e, #42454b, #34373b, #2c2f35);
+    color: white;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.first-section .text-content {
+    width: 40%;
+    color: #faf3b4;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+    margin-left: 80px;
+}
+
+.first-section .text-content h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del video (ajustado) */
+.first-section .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /* Cambiado de 110% a 100% */
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Estilos para el VIDEO LOCAL (reemplazan al iframe) */
+.first-section .video-background video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    /* Asegura que cubra todo el espacio */
+    object-position: center;
+    /* Enfoca el centro del video */
+    pointer-events: none;
+}
+
+/* Overlay mejorado */
+.first-section .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.9) 20%,
+            rgba(0, 0, 0, 0.7) 50%,
+            rgba(0, 0, 0, 0.4) 80%,
+            rgba(0, 0, 0, 0.4) 100%);
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .first-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .first-section .text-content {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.2rem;
+        z-index: 3;
+    }
+
+    .first-section .text-content h1 {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .first-section .video-background {
+        position: static;
+        width: 100%;
+        height: 250px;
+        z-index: 1;
+        margin-top: 20px;
+    }
+
+    .first-section .video-background video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .first-section .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.9) 0%,
+                rgba(0, 0, 0, 0.9) 20%,
+                rgba(0, 0, 0, 0.7) 50%,
+                rgba(0, 0, 0, 0.4) 80%,
+                rgba(0, 0, 0, 0.4) 100%);
+        z-index: 2;
+    }
+}
+
+/* ======================
+   🎯 SECCIÓN ACERCA DE NOSOSTROS INDEX
+   ====================== */
+/* Contenedor principal */
+.about-section {
+    padding: 40px 0;
+    background-color: white;
+    /* Fondo claro */
+    color: #333;
+    /* Color de texto oscuro */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /* Espacio entre el logo y el texto */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-logo {
+    flex: 1;
+    /* Ocupa la mitad del espacio */
+    text-align: center;
+    /* Centra el logo */
+}
+  /* sacar esto cuando se arregle nosotros. html*/
+.about-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+    /* Ocupa la otra mitad del espacio */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    /* Espaciado entre líneas */
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        /* Cambia a disposición vertical */
+        text-align: center;
+        /* Centra el texto */
+    }
+
+    .about-logo img {
+        max-width: 80%;
+        /* Reduce el tamaño del logo en móviles */
+        margin-bottom: 20px;
+        /* Espacio entre el logo y el texto */
+    }
+
+    .about-text p {
+        text-align: center;
+        /* Centra el texto en móviles */
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Desplazamiento suave */
+}
+
+/* Estilos para la línea decorativa */
+.decorative-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    /* Espacio arriba y abajo */
+    position: relative;
+}
+
+/* Contenedor principal */
+.mision-vision .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Items individuales */
+.mision-vision .item {
+    flex: 1;
+    min-width: 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+/* Contenedor de imagen */
+.image {
+    margin-bottom: 28px;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/* Estilo para imágenes */
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+    .mision-vision .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .mision-vision .item {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .image {
+        height: 200px;
+        /* Altura ligeramente menor en móviles */
+    }
+}
+
+/* Línea decorativa */
+.line {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right,
+            #ff3503,
+            #e72b27,
+            rgba(84, 171, 252, 0.5),
+            rgba(2, 116, 247, 0.5));
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+/*inferior izquierda servicios */
+.texto-inferior {
+    position: absolute;
+    /* Posiciona el texto sobre la imagen */
+    bottom: 30px;
+    /* Distancia desde la parte inferior */
+    left: 130px;
+    /* Distancia desde la izquierda */
+    color: #faf3b4;
+    /* Color del texto */
+    text-align: left;
+    /* Alineación del texto */
+    z-index: 2;
+    /* Asegura que esté por encima de la imagen */
+}
+
+.texto-inferior h2 {
+    font-size: 3.4rem;
+}
+
+@media (max-width: 768px) {
+    .texto-inferior {
+        bottom: 20px;
+        /* Más cerca del borde inferior */
+        left: 20px;
+        /* Más cerca del borde izquierdo */
+        text-align: left;
+        /* Se mantiene alineado a la izquierda */
+    }
+
+    .texto-inferior h2 {
+        font-size: 2rem;
+        /* Reduce el tamaño del texto en móvil */
+    }
+}
+
+/* ======================
+   🎯 SECCIÓN DE SERVICIOS 
+   ====================== */
+/* Contenedor principal */
+.seccion-servicios {
+    padding: 40px 20px;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicio-box {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.servicio-titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    color: #faf3b4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.servicio-imagen-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg,
+            rgba(32, 82, 162, 0.25) 0%,
+            rgba(46, 98, 177, 0.35) 100%);
+    z-index: 2;
+}
+
+.servicio-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease;
+    filter: blur(0);
+}
+
+.servicio-contenido {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+}
+
+.servicio-boton {
+    position: absolute;
+    bottom: 20px;
+    left: -100%;
+    transform: translateX(0);
+    padding: 10px 25px;
+    background-color: #f8a42a;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    opacity: 0;
+    z-index: 4;
+    font-size: 1rem;
+    box-shadow: 0 2px 10px rgba(245, 245, 47, 0.3);
+}
+
+/* Efectos hover */
+.servicio-box:hover .servicio-imagen {
+    transform: scale(1.3);
+    filter: blur(2px);
+}
+
+.servicio-box:hover .servicio-titulo {
+    transform: translate(-50%, -50%) scale(1.05);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.servicio-box:hover .servicio-boton {
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-texto {
+    width: 70%;
+    padding: 25px 30px;
+    /* 25px vertical, 30px horizontal */
+}
+
+/* Título con espacio equilibrado */
+.modal-texto h2 {
+    margin-bottom: 8px;
+    padding-top: 0;
+    position: static;
+    /* Eliminamos el posicionamiento relativo */
+}
+
+/* Línea decorativa con espacio óptimo */
+.modal-texto .decorative-line {
+    margin: 10px 0;
+    /* Espacio vertical equilibrado */
+}
+
+/* Párrafo con buen espaciado */
+.modal-texto p {
+    margin-top: 15px;
+    padding: 0 5px;
+    /* Pequeño respiro en los lados */
+}
+
+.modal-imagen {
+    width: 30%;
+    object-fit: cover;
+}
+
+.cerrar-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+
+    /* Estilos para los servicios */
+    .servicio-box {
+        width: 100%;
+    }
+
+    .servicio-boton {
+        opacity: 1 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        bottom: 20px;
+        background-color: #f8a42a;
+        color: black;
+    }
+
+    .servicio-titulo {
+        top: 40% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+
+    .servicio-box:active .servicio-imagen {
+        transform: scale(1.05);
+        filter: blur(1px);
+    }
+
+    .servicio-box:active .servicio-titulo {
+        transform: translate(-50%, -50%) scale(1.05) !important;
+    }
+
+    /* Estilos para el modal */
+    .modal-contenido {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .modal-texto,
+    .modal-imagen {
+        width: 100%;
+    }
+
+    .modal-texto {
+        padding: 20px 25px;
+    }
+
+    .modal-texto h2 {
+        margin-bottom: 6px;
+    }
+
+    .modal-texto .decorative-line {
+        margin: 8px 0;
+    }
+
+    .modal-texto p {
+        margin-top: 12px;
+        padding: 0;
+    }
+}
+
+
+/* Estilos generales */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.texto-descripcion {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+/* Slider con imagen izquierda y texto derecha */
+.split-slider-container {
+    position: relative;
+    margin: 40px auto;
+    overflow: hidden;
+    max-width: 1110px;
+}
+
+.split-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.split-slide {
+    min-width: 100%;
+    flex-shrink: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.split-content {
+    display: flex;
+    height: 390px;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* IMAGEN AHORA A LA IZQUIERDA */
+.image-content {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.image-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+/* TEXTO AHORA A LA DERECHA */
+.text-content {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.text-content h3 {
+    font-size: 1.8rem;
+    color:  #de3d3d;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    color: #0e4599;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-info {
+    background: #e72b27;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+
+    transition: background-color 0.3s;
+}
+
+.btn-info:hover {
+    background: #f8a42a;
+    color: black;
+
+}
+
+.split-slide:hover .image-content img {
+    transform: scale(1.03);
+}
+
+/* Controles del slider */
+.dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background: #db3b39;
+}
+
+@media (max-width: 768px) {
+
+    /* Contenedor general del slider */
+    .split-slider-container {
+        overflow: hidden;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    /* Carrusel deslizante */
+    .split-slider {
+        flex-wrap: nowrap;
+        transition: transform 0.5s ease;
+    }
+
+    /* Cada slide ocupa todo el ancho */
+    .split-slide {
+        min-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    /* Contenido interno de cada slide */
+    .split-content {
+        flex-direction: column;
+        height: auto;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    /* Imagen en la parte superior */
+    .image-content,
+    .text-content {
+        width: 100%;
+    }
+
+    .image-content {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-content img {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: contain;
+    }
+
+    /* Texto debajo de la imagen */
+    .text-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-content h3 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .descripcion {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    /* Botón */
+    .btn-info {
+        padding: 10px 16px;
+        font-size: 0.95rem;
+    }
+
+    /* Puntos del slider */
+    .dots-container {
+        margin-top: 20px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+
+/* ESTILOS BASE DEL MODAL */
+.modal-productos {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 3, 8, 0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.modal-contenido-producto {
+    width: 90%;
+    /* Ajusta el ancho al 90% del viewport */
+    max-width: 1200px;
+    /* Ancho máximo en pantallas grandes */
+    height: 97vh;
+    /* Altura ajustada en relación al tamaño de la pantalla */
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(2, 48, 253, 0.3);
+    margin: 20px;
+}
+
+/* HEADER DEL MODAL */
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.modal-header h3 {
+    color: rgb(229,59,56);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-tabs {
+    display: flex;
+    gap: 15px;
+}
+
+.modal-tab {
+    padding: 8px 20px;
+    background: none;
+    color: #555;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.modal-tab.active {
+    border-bottom-color:   #e53b38;
+    color: #4a4b4d;
+}
+
+.modal-tab:hover {
+    color: #e53b38;
+}
+
+.cerrar-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+    background: none;
+    border: none;
+}
+
+.cerrar-modal:hover {
+    color: #e53b38;
+}
+
+/* CUERPO DEL MODAL - ESTRUCTURA 60%/40% */
+.modal-body {
+    display: flex;
+    flex: 1;
+    height: calc(100% - 100px);
+}
+
+/* CONTENEDOR DE IMÁGENES (IZQUIERDA - 60%) */
+.productos-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    /* Fundamental para el slider */
+}
+
+/* SLIDER DE IMÁGENES */
+.productos-slider {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 50px);
+    /* Ajuste para los dots */
+    transition: transform 0.5s ease-in-out;
+}
+
+.producto-slide {
+    min-width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.producto-slide img {
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 
+        0 0 0 5px rgba(1, 31, 167, 0.2), /* Contorno externo */
+        inset 0 0 0 1000px rgba(82, 81, 81, 0.3); /* Relleno interno */
+    transition: all 0.3s ease;
+}
+/* Tamaños fijos por categoría (opcional y solo cuando sea necesario) */
+.producto-slide img.img-normal {
+    width: 478px;
+    height: auto;
+}
+
+.producto-slide img.img-pequena {
+    width: 220px;
+    height: auto;
+}
+
+.producto-slide img:hover {
+    box-shadow: 
+        0 0 0 5px rgba(245, 2, 2, 0.6),
+        inset 0 0 0 1000px rgba(250, 250, 252, 0.2);
+}
+
+/* CONTROLES DEL SLIDER */
+.productos-controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    position: relative;
+    margin-top: 20px;
+    /* Espacio adicional arriba de los dots */
+}
+
+.productos-dots {
+    display: flex;
+    gap: 10px;
+}
+
+.productos-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    touch-action: manipulation; 
+}
+
+.productos-dot.active {
+    background-color: #f10400;
+}
+
+/* INFORMACIÓN DEL PRODUCTO (DERECHA - 40%) */
+.producto-info {
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.producto-info h4 {
+    font-size: 1.9rem;
+    background: linear-gradient(90deg, #3f67a1, #3f67a1);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight:  bold;
+}
+
+.producto-info p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+/* Mejoras para interacción táctil */
+.productos-slider {
+    touch-action: pan-y; /* Permite desplazamiento vertical pero no horizontal */
+    -webkit-overflow-scrolling: touch; /* Mejor scrolling en iOS */
+    overscroll-behavior-x: contain;
+}
+
+.producto-slide {
+    user-select: none; /* Evita selección de texto al deslizar */
+    -webkit-user-drag: none; /* Evita arrastre en iOS */
+    pointer-events: none; /* Mejora el rendimiento táctil */
+}
+
+.producto-slide img {
+    pointer-events: auto; /* Permite interacción con la imagen */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+@media (max-width: 767px) {
+    .productos-dot {
+        width: 14px;
+        height: 14px;
+        margin: 0 2.5px; /* Separación para evitar toques accidentales */
+    }
+}
+/* Dots más grandes en móviles */
+@media (max-width: 767px) {
+    .productos-dot {
+        width: 14px;
+        height: 14px;
+    }
+}
+/* ESTILOS RESPONSIVOS PARA MÓVILES */
+@media (max-width: 767px) {
+    /* MODAL PRINCIPAL */
+    .modal-productos {
+        background-color: rgba(0, 3, 8, 0.95); /* Fondo más oscuro para mejor contraste */
+    }
+    
+    .modal-contenido-producto {
+        width: 95%; /* Más ancho en móviles */
+        height: 95vh; /* Altura ligeramente menor para evitar bordes */
+        margin: 10px 0; /* Menos margen */
+    }
+    
+    /* HEADER DEL MODAL */
+    .modal-header {
+        padding: 10px 15px; /* Menos padding */
+    }
+    
+    .modal-header h3 {
+        font-size: 1.2rem; /* Título más pequeño */
+        margin-bottom: 8px;
+    }
+    
+    .modal-tabs {
+        gap: 8px; /* Menor espacio entre tabs */
+    }
+    
+    .modal-tab {
+        padding: 6px 12px; /* Tabs más compactas */
+        font-size: 0.9rem; /* Texto más pequeño */
+    }
+    
+    .cerrar-modal {
+        top: 10px;
+        right: 15px;
+        font-size: 24px; /* Icono más pequeño */
+    }
+    
+    /* CUERPO DEL MODAL - CAMBIO A DISPOSICIÓN VERTICAL */
+    .modal-body {
+        flex-direction: column; /* Apila imagen e información verticalmente */
+        height: auto; /* Altura automática */
+        overflow-y: auto; /* Permite scroll si es necesario */
+    }
+    
+    /* CONTENEDOR DE IMÁGENES (AHORA OCUPA EL 100%) */
+    .productos-container {
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50vh; /* Altura fija para el slider */
+        padding: 10px; /* Menos padding */
+    }
+    
+    /* AJUSTES DEL SLIDER */
+    .productos-slider {
+        height: calc(100% - 40px); /* Ajuste para dots más pequeños */
+    }
+    
+    .producto-slide img {
+        max-width: 95%; /* Imágenes más grandes */
+        max-height: 95%;
+    }
+    
+    /* Tamaños fijos por categoría - ajustados para móviles */
+    .producto-slide img.img-normal {
+        width: 100%;
+        height: auto;
+    }
+    
+    .producto-slide img.img-pequena {
+        width: 70%;
+        height: auto;
+    }
+    
+    /* CONTROLES DEL SLIDER */
+    .productos-controls {
+        margin-top: 10px; /* Menos espacio */
+    }
+    
+    .productos-dot {
+        width: 10px;
+        height: 10px; /* Puntos más pequeños */
+    }
+    
+    /* INFORMACIÓN DEL PRODUCTO (AHORA OCUPA EL 100%) */
+    .producto-info {
+        width: 100%; /* Ocupa todo el ancho */
+        padding: 20px; /* Menos padding */
+        height: auto; /* Altura automática */
+    }
+    
+    .producto-info h4 {
+        font-size: 1.4rem; /* Título más pequeño */
+        margin-bottom: 15px;
+    }
+    
+    .producto-info p {
+        max-width: 95%; /* Más ancho para mejor lectura */
+        font-size: 0.95rem; /* Texto más pequeño */
+        margin-bottom: 20px;
+    }
+}
+
+/* AJUSTES ADICIONALES PARA PANTALLAS MUY PEQUEÑAS (Ej: iPhone 5/SE) */
+@media (max-width: 320px) {
+    .modal-contenido-producto {
+        height: 98vh; /* Un poco más alto */
+    }
+    
+    .modal-tab {
+        padding: 4px 8px; /* Tabs aún más compactas */
+        font-size: 0.8rem;
+    }
+    
+    .productos-container {
+        height: 45vh; /* Slider un poco más pequeño */
+    }
+    
+    .producto-info h4 {
+        font-size: 1.2rem;
+    }
+    
+    .producto-info p {
+        font-size: 0.85rem;
+    }
+}
+  
+
+/* Posición específica solo en servicios */
+.pagina-servicios .social-icons {
+    position: absolute;
+    top: 120px;
+}
+
+@media (max-width: 768px) {
+    .pagina-servicios .social-icons {
+        top: 60px;
+        /* más cerca del contenido, ajusta según tu diseño */
+        right: 10px;
+        /* si deseas moverlos más hacia la derecha */
+        left: auto;
+        /* asegúrate de no heredar estilos no deseados */
+    }
+
+    .pagina-servicios .social-icons a {
+        font-size: 1.2rem;
+        /* un poco más grandes en móvil */
+        margin: 0 5px;
+    }
+
+    .pagina-servicios .social-icons a img {
+        width: 24px;
+        /* tamaño SVG ajustado */
+        height: 24px;
+    }
+}
