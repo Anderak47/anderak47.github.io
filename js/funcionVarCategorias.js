@@ -254,143 +254,143 @@ const radiadoresConfig = {
     dataSource: {
         livianos: [
             {
-                titulo: "Radiador Revo",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Suzuki",
+                descripcion: "SWIFT 2012",
                 imagenes: ["/img/suzukir.webp"]
             },
             {
-                titulo: "Radiador Liviano Modelo A",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Volkswagen",
+                descripcion: "FOX 2005-2007",
                 imagenes: ["/img/volkswagenr.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Peugeot",
+                descripcion: "PEUGEOT 307",
                 imagenes: ["/img/peugeotr.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Nissan",
+                descripcion: "XTRAIL 2007_2010",
                 imagenes: ["/img/nissanr.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Nissan",
+                descripcion: "SENTRA GASOLINERO 1992-2015",
                 imagenes: ["/img/nissansentra.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Nissan",
+                descripcion: "NAVARA 2005-2011",
                 imagenes: ["/img/nissannavara.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Mittsubishi",
+                descripcion: "L200 2007-2013",
                 imagenes: ["/img/mittsubishitriton.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Jac",
+                descripcion: "J3 2015",
                 imagenes: ["/img/jacj3.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Hyundai",
+                descripcion: "ELANTRA 2005",
                 imagenes: ["/img/hyundaielantra.webp"]
             },
             {
-                titulo: "hilux",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Toyota",
+                descripcion: "HIACE 5L 2010",
                 imagenes: ["/img/hiace5l.webp"]
             },
 
         ],
         pesados: [
             {
-                titulo: "Radiador Pesado Modelo A",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Freightliner",
+                descripcion: "FREIGHTLINER",
                 imagenes: ["/img/freightliner.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Hino",
+                descripcion: "HINO 500",
                 imagenes: ["/img/hino500.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Volvo",
+                descripcion: "FM",
                 imagenes: ["/img/volvoFm.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Mitsubishi",
+                descripcion: "FUSO FIGHTER 1999-2005",
                 imagenes: ["/img/fusoFighter.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Isuzu",
+                descripcion: "ISUZU 500 2014",
                 imagenes: ["/img/izusu500.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Volvo",
+                descripcion: "FH12",
                 imagenes: ["/img/volvofh12.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Mitsubishi",
+                descripcion: "FUSO CANTER 2014",
                 imagenes: ["/img/canter2014.webp"]
             },
             {
-                titulo: "Radiador Pesado Modelo B",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Radiador Volvo",
+                descripcion: "FMX480",
                 imagenes: ["/img/volvoFMX480.webp"]
             }
         ],
         linea_amarilla: [
             {
-                titulo: "Radiador Línea Amarilla 1",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Cargador Frontal",
+                descripcion: "CAT 966H",
                 imagenes: ["/img/cargaFrontal.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora Caterpillar",
+                descripcion: "CAT 320D",
                 imagenes: ["/img/cargadorKomatsu.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora",
+                descripcion: "CAT 320D",
                 imagenes: ["/img/excavadora320d.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora Caterpillar",
+                descripcion: "CAT 349",
                 imagenes: ["/img/excavadora349.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora Komatsu",
+                descripcion: "PC-350",
                 imagenes: ["/img/excavadoraKomatsu350.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora Caterpillar",
+                descripcion: "CAT 336D",
                 imagenes: ["/img/excavadora336.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Excavadora Caterpillar",
+                descripcion: "CAT 320DL",
                 imagenes: ["/img/excabadoraCat320DL.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Montacarga",
+                descripcion: "HYSTER",
                 imagenes: ["/img/montacargasHyster.webp"]
             },
             {
-                titulo: "Radiador Línea Amarilla 2",
-                descripcion: "Diseñado para vehículos compactos con alto rendimiento térmico.",
+                titulo: "Intercooler",
+                descripcion: "CAT 336",
                 imagenes: ["/img/intercoolersCat336.webp"]
             },
         ]
@@ -668,33 +668,33 @@ const condensadoresConfig = {
         // Solo una categoría directa (sin pestañas)
         condensadores: [
             {
-                titulo: "Condensador Modelo A",
-                descripcion: "Descripción detallada del condensador modelo A.",
+                titulo: "Condensador Hilux",
+                descripcion: "REVO/1GD 2017",
                 imagenes: ["/img/condensadores1.webp"]
             },
             {
-                titulo: "Condensador Modelo B",
-                descripcion: "Descripción detallada del condensador modelo B.",
+                titulo: "Condensador Kia",
+                descripcion: "SPORTAGE",
                 imagenes: ["/img/kiasportageCondensador.webp"]
             },
             {
-                titulo: "Condensador Modelo c",
-                descripcion: "Descripción detallada del condensador modelo B.",
+                titulo: "Condensador Suzuki",
+                descripcion: "SWIFT",
                 imagenes: ["/img/suzukiswiftCondensador.webp"]
             },
             {
-                titulo: "Condensador Modelo c",
-                descripcion: "Descripción detallada del condensador modelo B.",
+                titulo: "Condensador Yaris",
+                descripcion: "ENVIDIA 2015",
                 imagenes: ["/img/yarisenvidia2015Condensador.webp"]
             },
             {
-                titulo: "Condensador Modelo c",
-                descripcion: "Descripción detallada del condensador modelo B.",
+                titulo: "Condensador Toyota",
+                descripcion: "RAV4 2007",
                 imagenes: ["/img/toyotarav42007Condensador.webp"]
             },
             {
-                titulo: "Condensador Modelo c",
-                descripcion: "Descripción detallada del condensador modelo B.",
+                titulo: "Condensador Nissan",
+                descripcion: "TIIDA 2006-2013",
                 imagenes: ["/img/nissantiidaCondensadores.webp"]
             }
         ]
