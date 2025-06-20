@@ -410,180 +410,180 @@ const accesoriosConfig = {
     dataSource: {
         bridas: [
             {
-                titulo: "Brida Modelo Standard",
-                descripcion: "Brida de alta resistencia para conexiones seguras.",
+                titulo: "Brida de agua Kia",
+                descripcion: "MODELO SOUL",
                 imagenes: ["/img/kiaBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Toyota",
+                descripcion: "MODELO HIACE 3L",
                 imagenes: ["/img/hiace3lBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Mitsubishi",
+                descripcion: "MODELO LANCER",
                 imagenes: ["/img/mitsubishilancerBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Mitsubishi",
+                descripcion: "MODELO CANTER",
                 imagenes: ["/img/hyundaihd65Brida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Kia",
+                descripcion: "MODELO KIA 2012",
                 imagenes: ["/img/kia2012Brida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Nissan",
+                descripcion: "MODELO SUNNY/SENTRA",
                 imagenes: ["/img/nissansunnyBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Toyota",
+                descripcion: "MODELO YARIS 2014",
                 imagenes: ["/img/toyotayaris2014Brida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Nissan",
+                descripcion: "MODELO AS/QG13/QG15",
                 imagenes: ["/img/nissanadBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Suzuki",
+                descripcion: "MODELO VITARA",
                 imagenes: ["/img/suzukivitaraBrida.webp"]
             },
             {
-                titulo: "Brida Modelo Premium",
-                descripcion: "Brida de máxima durabilidad para usos intensivos.",
+                titulo: "Brida de agua Mitsubishi ",
+                descripcion: "MODELO CANTER ROSA",
                 imagenes: ["/img/mitsubishicanterrosaBrida.webp"]
             }
         ],
         tapas: [
             {
-                titulo: "Tapa Radiador Aluminio",
-                descripcion: "Tapa de aluminio de alta calidad.",
+                titulo: "Tapa de radiador termostato alto",
+                descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa1.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador de 18 libras",
+                descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa2.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador de 18 libras",
+                descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa3.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador termostato bajo",
+                descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa4.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador de agua Volkswagen",
+                descripcion: "MODELO POLO",
                 imagenes: ["/img/tapa5.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador de agua Chevrolet",
+                descripcion: "MODELO SPARK",
                 imagenes: ["/img/tapa6.webp"]
             },
             {
-                titulo: "Tapa Radiador Acero",
-                descripcion: "Tapa de acero resistente a la corrosión.",
+                titulo: "Tapa de radiador de agua Chevrolet",
+                descripcion: "MODELO SAIL",
                 imagenes: ["/img/tapa7.webp"]
             },
             
         ],
         tanques: [
             {
-                titulo: "Tanque Expansión Universal",
-                descripcion: "Tanque de expansión para diversos modelos.",
+                titulo: "Tanque de agua Chevrolet",
+                descripcion: "MODELO SONIC",
                 imagenes: ["/img/chevroletsonicTanque.webp"]
             },
             {
-                titulo: "Tanque Expansión Premium",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Tanque de agua de Audi",
+                descripcion: "TANQUE DE AGUA",
                 imagenes: ["/img/tanque2.webp"]
             },
             {
-                titulo: "Tanque Expansión Premium",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Tanque de agua Nissan",
+                descripcion: "MODELO FRONTIER",
                 imagenes: ["/img/tanque3.webp"]
             },
             {
-                titulo: "Tanque Expansión Premium",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Tanque de agua Chevrolet",
+                descripcion: "MODELO SAIL",
                 imagenes: ["/img/tanque4.webp"]
             },
             {
-                titulo: "Tanque Expansión Premium",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Tanque de agua Chevrolet",
+                descripcion: "MODELO N300",
                 imagenes: ["/img/tanque5.webp"]
             },
             {
-                titulo: "Tanque Expansión Premium",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Tanque de agua Daewoo",
+                descripcion: "MODELO CIELO",
                 imagenes: ["/img/tanque6.webp"]
             }
         ],
         canieriaAgua: [
             {
-                titulo: "cañeria 1",
-                descripcion: "Tanque de expansión para diversos modelos.",
+                titulo: "Cañeria de agua carro Chino",
+                descripcion: "MODELO CHINO",
                 imagenes: ["/img/carrochinoCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Chevrolet",
+                descripcion: "MODELO CHEVROLET",
                 imagenes: ["/img/chevroletaveoCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Chevrolet",
+                descripcion: "MODELO PRISMA",
                 imagenes: ["/img/chevroletprismaCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Hyundai ",
+                descripcion: "MODELO ELANTRA",
                 imagenes: ["/img/removebgCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Hyundai",
+                descripcion: "MODELO ACCENT 94-99",
                 imagenes: ["/img/hyundaiaccentCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Lifan",
+                descripcion: "MODELO LIFAN/BYD",
                 imagenes: ["/img/lifanbydCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Nissan",
+                descripcion: "MODELO MARCH",
                 imagenes: ["/img/nissanmarchCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Nissan ",
+                descripcion: "CAÑERIA NISSAN",
                 imagenes: ["/img/nissanCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Renault",
+                descripcion: "MODELO LOGAN 2016",
                 imagenes: ["/img/renaultloganCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Toyota",
+                descripcion: "MODELO AVANZA",
                 imagenes: ["/img/toyotaavanzaCanieria.webp"]
             },
             {
-                titulo: "cañeria 2",
-                descripcion: "Tanque de expansión de alta capacidad.",
+                titulo: "Cañeria de agua Toyota",
+                descripcion: "MODELO COROLLA",
                 imagenes: ["/img/toyotacorollaCanieria.webp"]
             },
         ]
@@ -603,52 +603,52 @@ const refrigerantesConfig = {
     dataSource: {
         galon: [
             {
-                titulo: "Anticongelante Galón Verde",
-                descripcion: "Protección óptima para climas fríos, presentación en galón.",
+                titulo: "Refrigerante Prestone color verde 33%",
+                descripcion: "PRESTONE",
                 imagenes: ["/img/prestoneAmarillo.webp"]
             },
             {
-                titulo: "Anticongelante Galón Rosa",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Refrigerante Vistony color rojo 50%",
+                descripcion: "VISTONY",
                 imagenes: ["/img/vistonyRojo.webp"]
             },
             {
-                titulo: "Anticongelante Galón Rosa",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Refrigerante Prestone Command",
+                descripcion: "PRESTONE",
                 imagenes: ["/img/prestoneNegro.webp"]
             },
             {
-                titulo: "Anticongelante Galón Rosa",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Líquido para radiador rojo triple acción",
+                descripcion: "PRESTONE",
                 imagenes: ["/img/TripleAccionRojo.webp"]
             },
             {
-                titulo: "Anticongelante Galón Rosa",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Agua Desionizada",
+                descripcion: "AGUA DESIONIZADA",
                 imagenes: ["/img/aguaDesionizada.webp"]
             }
         ],
         balde: [
             {
-                titulo: "Refrigerante Balde 5L",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Refrigerante en balde 50% rojo",
+                descripcion: "Fortalum",
                 imagenes: ["/img/fortalumValde.webp"]
             },
         ],
         aditivos: [
             {
-                titulo: "Aditivo Refrigerante Concentrado",
-                descripcion: "Mejora las propiedades del líquido refrigerante.",
+                titulo: "Aditivo anticorrosivo",
+                descripcion: "WURTH",
                 imagenes: ["/img/anticorrosivo.webp"]
             },
             {
-                titulo: "Aditivo Sellador Radiador",
-                descripcion: "Sella pequeñas fugas en el sistema de refrigeración.",
+                titulo: "Afloja todo",
+                descripcion: "WURTH 300 ml/215 g",
                 imagenes: ["/img/rostOff.webp"]
             },
             {
-                titulo: "Aditivo Sellador Radiador",
-                descripcion: "Sella pequeñas fugas en el sistema de refrigeración.",
+                titulo: "Metal líquido",
+                descripcion: "WURTH 500 g",
                 imagenes: ["/img/metalLiquidoFE1.webp"]
             }
         ]
@@ -713,13 +713,13 @@ const intercoolersConfig = {
         // Solo una categoría para intercoolers
         todos: [
             {
-                titulo: "Intercooler Modelo Turbo",
-                descripcion: "Enfriador de aire de alto rendimiento para turbos.",
+                titulo: "Intercooler Mitsubishi",
+                descripcion: "MODELO L200 TRITON",
                 imagenes: ["/img/tritonL200.webp"]
             },
             {
                 titulo: "Intercooler Modelo Race",
-                descripcion: "Diseño de competición para máxima eficiencia.",
+                descripcion: "MODELO 1KD-2KD",
                 imagenes: ["/img/hilux1kd.webp"]
             }
         ]
@@ -738,23 +738,23 @@ const ventiladoresConfig = {
         // Categoría única para ventiladores
         todos: [
             {
-                titulo: "Ventilador Eléctrico 12V",
-                descripcion: "Ventilador de alto flujo para sistemas de enfriamiento.",
+                titulo: "Ventilador Toyota",
+                descripcion: "MODELO YARIS 2009",
                 imagenes: ["/img/ventiladorYaris.webp"]
             },
             {
-                titulo: "Ventilador Industrial",
-                descripcion: "Alta resistencia para uso continuo en maquinaria pesada.",
+                titulo: "Ventilador Hyundai",
+                descripcion: "MODELO I20",
                 imagenes: ["/img/hyundaiL20.webp"]
             },
             {
-                titulo: "Kit Ventilador + Controlador",
-                descripcion: "Solución completa con control de temperatura integrado.",
+                titulo: "Ventilador Hyundai",
+                descripcion: "MODELO ELANTRA 2017",
                 imagenes: ["/img/hyundaiElantra2017.webp"]
             },
             {
-                titulo: "Kit Ventilador + Controlador",
-                descripcion: "Solución completa con control de temperatura integrado.",
+                titulo: "Ventilador Chevrolet",
+                descripcion: "MODELO SONIC",
                 imagenes: ["/img/ventilador1.webp"]
             }
         ]
@@ -773,48 +773,48 @@ const calefactoresConfig = {
         // Categoría única para calefactores
         todos: [
             {
-                titulo: "Calefactor Eléctrico 24V",
-                descripcion: "Sistema de calefacción rápida para cabinas.",
+                titulo: "Calefactor Toyota",
+                descripcion: "MODELO YARIS ENVIDIA 2015",
                 imagenes: ["/img/toyotaYaris2025.webp"]
             },
             {
-                titulo: "Calefactor Diésel",
-                descripcion: "Alto rendimiento para vehículos pesados.",
+                titulo: "Calefactor Mitsubishi ",
+                descripcion: "MODELO FUSO",
                 imagenes: ["/img/mitsubishiFuso.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Hino",
+                descripcion: "MODELO HINO 500",
                 imagenes: ["/img/hino500c.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Hyundai",
+                descripcion: "MODELO HD65-HD75",
                 imagenes: ["/img/HyundaiHD65.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Mercedes",
+                descripcion: "MODELO MERCEDES",
                 imagenes: ["/img/mercedesCalefactores.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Hyundai",
+                descripcion: "MODELO ACCENT 2012",
                 imagenes: ["/img/hyundaiAccent.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Izuzu",
+                descripcion: "MODELO IZUZU NPR/FORWARD",
                 imagenes: ["/img/izuzuCalefactores.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Hilux",
+                descripcion: "MODELO REVO/1GD",
                 imagenes: ["/img/hiluxRevo.webp"]
             },
             {
-                titulo: "Kit Calefacción Completo",
-                descripcion: "Incluye calefactor, termostato y controles.",
+                titulo: "Calefactor Hilux",
+                descripcion: "MODELO 1KD/2KD/VIGO",
                 imagenes: ["/img/hilux1kdCalefactor.webp"]
             }
         ]
@@ -831,75 +831,75 @@ const fabricacionConfig = {
     dataSource: {
         aluminio: [
             {
-                titulo: "0",
-                descripcion: "Protección óptima para climas fríos, presentación en galón.",
+                titulo: "Radiador en full aluminio torre de iluminación",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/radiador1.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Radiador en full aluminio de excabadora Sany",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/excabadoraSany.webp"]
             },
             {
-                titulo: "2",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Radiador full aluminio de camion Jac",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/camionJac.webp"]
             },
             {
-                titulo: "3",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Radiador full aluminio de Hino 500",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/hino500Fabricacion.webp"]
             },
             {
-                titulo: "4",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Panal de aluminio de 62mm de espesor",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/radiador2.webp"]
             },
             {
-                titulo: "5",
-                descripcion: "Tecnología avanzada para motores modernos, galón.",
+                titulo: "Radiador full aluminio de excavadora Cat",
+                descripcion: "MODELO CAT 349",
                 imagenes: ["/img/excabadora349.webp"]
             }
         ],
         bronce: [
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce Hyundai",
+                descripcion: "MODELO HD65",
                 imagenes: ["/img/hyundaiHD65Fabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce de carro Chino",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/radiador3Fabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce Volvo",
+                descripcion: "MODELO NL10/NL12",
                 imagenes: ["/img/volvoFabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce Hilux del 87",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/hiluxAntiguaFabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce camión Jac",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/radiador4Fabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador bronce de torre de iluminación Terex",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/torreIluminacionTerex.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de comprensor de aire",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/radiador5Fabricacion.webp"]
             },
             {
-                titulo: "1",
-                descripcion: "Rendimiento superior para flotas vehiculares.",
+                titulo: "Radiador de bronce de comprensor",
+                descripcion: "FABRICACIÓN",
                 imagenes: ["/img/comprensorFabricacion.webp"]
             },
         ],
