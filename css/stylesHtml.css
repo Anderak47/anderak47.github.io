@@ -1094,12 +1094,7 @@ html {
     
     /* Tamaños fijos por categoría - ajustados para móviles */
     .producto-slide img.img-normal {
-        width: 75%;
-        height: auto;
-    }
-    
-    .producto-slide img.img-pequena {
-        width: 60%;
+        width: 70%;
         height: auto;
     }
     
@@ -1132,30 +1127,6 @@ html {
     }
 }
 
-/* AJUSTES ADICIONALES PARA PANTALLAS MUY PEQUEÑAS (Ej: iPhone 5/SE) */
-@media (max-width: 320px) {
-    .modal-contenido-producto {
-        height: 98vh; /* Un poco más alto */
-    }
-    
-    .modal-tab {
-        padding: 4px 8px; /* Tabs aún más compactas */
-        font-size: 0.8rem;
-    }
-    
-    .productos-container {
-        height: 45vh; /* Slider un poco más pequeño */
-    }
-    
-    .producto-info h4 {
-        font-size: 1.2rem;
-    }
-    
-    .producto-info p {
-        font-size: 0.85rem;
-    }
-}
-  
 
 /* Posición específica solo en servicios */
 .pagina-servicios .social-icons {
