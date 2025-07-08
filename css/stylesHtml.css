@@ -1094,12 +1094,12 @@ html {
     
     /* Tamaños fijos por categoría - ajustados para móviles */
     .producto-slide img.img-normal {
-        width: 100%;
+        width: 75%;
         height: auto;
     }
     
     .producto-slide img.img-pequena {
-        width: 70%;
+        width: 60%;
         height: auto;
     }
     
@@ -1185,3 +1185,4 @@ html {
         height: 24px;
     }
 }
+

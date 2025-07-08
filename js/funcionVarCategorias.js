@@ -30,13 +30,13 @@ function setupProductModal(config) {
         }
     });
 
-    // Event listeners del modal
+
     document.querySelector(`#${modalId} .cerrar-modal`).addEventListener('click', () => cerrarModal(modalId));
     document.getElementById(modalId).addEventListener('click', function(e) {
         if (e.target === this) cerrarModal(modalId);
     });
 
-    // Configurar pestañas de categoría
+
     if (hasTabs && tabSelector) {
         document.querySelectorAll(`${tabSelector} .modal-tab`).forEach(tab => {
             tab.addEventListener('click', function() {
@@ -44,13 +44,12 @@ function setupProductModal(config) {
             });
         });
     } else {
-        // Ocultar elementos de pestañas si no son necesarios
+
         const tabsContainer = document.querySelector(tabSelector);
         if (tabsContainer) {
             tabsContainer.style.display = 'none';
         }
 
-        // Ajustar el header para modales sin pestañas
         const modalHeader = document.querySelector(`#${modalId} .modal-header`);
         if (modalHeader) {
             modalHeader.style.paddingBottom = '25px';
@@ -58,7 +57,6 @@ function setupProductModal(config) {
         }
     }
 
-    // Función para cargar categoría
     function cargarCategoria(categoria) {
         currentCategory = categoria || currentCategory;
         currentProductIndex = 0;
@@ -74,7 +72,6 @@ function setupProductModal(config) {
         iniciarAutoplay();
     }
 
-    // Función para cargar productos
     function cargarProductos() {
         const productos = dataSource[currentCategory];
         const slider = document.getElementById(sliderId);
@@ -84,21 +81,18 @@ function setupProductModal(config) {
         slider.innerHTML = '';
         dotsContainer.innerHTML = '';
 
-        // Crear slides y dots
         productos.forEach((producto, index) => {
-            // Crear slide
             const slide = document.createElement('div');
             slide.className = 'producto-slide';
             let claseImagen;
             switch (currentCategory) {
                 case 'canieriaAgua':
-                    claseImagen = 'img-pequena'; // 300px
+                    claseImagen = 'img-pequena'; 
                     break;
                 default:
-                    claseImagen = 'img-normal'; // 478px
+                    claseImagen = 'img-normal'; 
             }
             
-            // Usamos data-src para carga perezosa
             slide.innerHTML = `
                 <img data-src="${producto.imagenes[0]}" 
                      alt="${producto.titulo}" 
@@ -119,10 +113,8 @@ function setupProductModal(config) {
             dotsContainer.appendChild(dot);
         });
 
-        // Configurar eventos de touch después de crear los slides
         setupTouchEvents();
         
-        // Cargar la primera imagen inmediatamente
         if (productos.length > 0) {
             loadImage(0);
             mostrarProducto(0);
@@ -133,7 +125,6 @@ function setupProductModal(config) {
         }
     }
 
-    // Configurar eventos táctiles
     function setupTouchEvents() {
         const slider = document.getElementById(sliderId);
         if (!slider) return;
@@ -145,7 +136,7 @@ function setupProductModal(config) {
 
     function handleTouchStart(e) {
         touchStartX = e.touches[0].clientX;
-        clearAutoplay(); // Pausar autoplay durante interacción
+        clearAutoplay(); 
     }
 
     function handleTouchMove(e) {
@@ -162,7 +153,7 @@ function setupProductModal(config) {
         const slider = document.getElementById(sliderId);
         if (!slider) return;
 
-        const threshold = 50; // Mínimo desplazamiento para considerar swipe
+        const threshold = 50; 
         const diff = touchEndX - touchStartX;
         const productos = dataSource[currentCategory];
         
@@ -234,7 +225,7 @@ function setupProductModal(config) {
         autoplayInterval = setInterval(() => {
             const newIndex = (currentProductIndex + 1) % productos.length;
             mostrarProducto(newIndex);
-        }, 3000); // Cambia cada 3 segundos
+        }, 3000); 
     }
 
     function reiniciarAutoplay() {
@@ -359,11 +350,6 @@ const radiadoresConfig = {
                 imagenes: ["/img/cargadorKomatsu.webp"]
             },
             {
-                titulo: "Excavadora",
-                descripcion: "CAT 320D",
-                imagenes: ["/img/excavadora320d.webp"]
-            },
-            {
                 titulo: "Excavadora Caterpillar",
                 descripcion: "CAT 349",
                 imagenes: ["/img/excavadora349.webp"]
@@ -446,7 +432,7 @@ const accesoriosConfig = {
             },
             {
                 titulo: "Brida de agua Nissan",
-                descripcion: "MODELO AS/QG13/QG15",
+                descripcion: "MODELO AD/QG13/QG15",
                 imagenes: ["/img/nissanadBrida.webp"]
             },
             {
@@ -472,12 +458,12 @@ const accesoriosConfig = {
                 imagenes: ["/img/tapa2.webp"]
             },
             {
-                titulo: "Tapa de radiador de 18 libras",
+                titulo: "Tapa de radiador termostato bajo",
                 descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa3.webp"]
             },
             {
-                titulo: "Tapa de radiador termostato bajo",
+                titulo: "Tapa de radiador de 13 libras",
                 descripcion: "TAPA DE RADIADOR",
                 imagenes: ["/img/tapa4.webp"]
             },
@@ -718,7 +704,7 @@ const intercoolersConfig = {
                 imagenes: ["/img/tritonL200.webp"]
             },
             {
-                titulo: "Intercooler Modelo Race",
+                titulo: "Intercooler Hilux",
                 descripcion: "MODELO 1KD-2KD",
                 imagenes: ["/img/hilux1kd.webp"]
             }
@@ -803,7 +789,7 @@ const calefactoresConfig = {
                 imagenes: ["/img/hyundaiAccent.webp"]
             },
             {
-                titulo: "Calefactor Izuzu",
+                titulo: "Calefactor Isuzu",
                 descripcion: "MODELO IZUZU NPR/FORWARD",
                 imagenes: ["/img/izuzuCalefactores.webp"]
             },

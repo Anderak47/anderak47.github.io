@@ -13,7 +13,7 @@ const servicios = {
     },
     reparacion: {
         titulo: "Reparación de Radiadores",
-        descripcion: "Soldadura profesional de fisuras en radiadores, intercoolers o enfriadores de aceite. Usamos aluminio o bronce según el material, eliminando fugas y recuperando su funcionamiento óptimo.",
+        descripcion: "Soldadura profesional de fisuras en radiadores, intercoolers o enfriadores de aceite.Usamos aluminio, bronce, estaño y plata según el material, eliminando fugas y recuperando su funcionamiento óptimo. Somos especialistas el soldadura proceso tig",
         imagen: "/img/reparacion.webp"
     },
     reconstruccion: {
@@ -28,7 +28,7 @@ const servicios = {
     },
     delivery: {
         titulo: "Delivery",
-        descripcion: "Necesitas un radiador nuevo o reparado? Te lo entregamos donde estés. Venta, fabricación y delivery especializado.",
+        descripcion: "Necesitas un radiador nuevo o reparado? Te lo entregamos donde estés.",
         imagen: "/img/delivery.webp"
     }
 };
