@@ -605,7 +605,7 @@ const refrigerantesConfig = {
             },
             {
                 titulo: "Líquido para radiador rojo triple acción",
-                descripcion: "PRESTONE",
+                descripcion: "VISTONY",
                 imagenes: ["/img/TripleAccionRojo.webp"]
             },
             {
