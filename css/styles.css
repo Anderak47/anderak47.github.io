@@ -118,6 +118,21 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23faf3b4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .mobile-arrow {
+    display: inline-block;
+    color: #faf3b4; 
+    font-size: 2.9rem;
+    transform: translateY(-1px);
+  }
+}
+
 
 /* Estilos para el footer */
 footer {

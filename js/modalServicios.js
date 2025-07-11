@@ -49,7 +49,7 @@ window.mostrarModal = function (servicioId) {
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 
-    // 🔽 Enfocamos el título para que el lector lo lea
+
     const tituloModal = document.getElementById('modal-titulo');
     tituloModal.focus();
 };

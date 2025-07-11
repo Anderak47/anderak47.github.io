@@ -163,11 +163,11 @@ function setupProductModal(config) {
 
         // Determinar dirección del swipe
         if (Math.abs(diff) > threshold) {
-            if (diff > 0) { // Swipe derecha (anterior)
+            if (diff > 0) { 
                 if (currentProductIndex > 0) {
                     mostrarProducto(currentProductIndex - 1);
                 }
-            } else { // Swipe izquierda (siguiente)
+            } else { 
                 if (currentProductIndex < productos.length - 1) {
                     mostrarProducto(currentProductIndex + 1);
                 }
@@ -177,7 +177,7 @@ function setupProductModal(config) {
         reiniciarAutoplay();
     }
 
-    // Carga perezosa de imágenes
+   
     function loadImage(index) {
         const slides = document.querySelectorAll(`#${sliderId} .producto-slide`);
         if (index < 0 || index >= slides.length) return;
@@ -188,7 +188,6 @@ function setupProductModal(config) {
         }
     }
 
-    // Función para mostrar un producto específico
     function mostrarProducto(index) {
         const productos = dataSource[currentCategory];
         if (!productos || index < 0 || index >= productos.length) return;
@@ -198,20 +197,20 @@ function setupProductModal(config) {
         const dots = document.querySelectorAll(`#${dotsId} .productos-dot`);
         const modal = document.getElementById(modalId);
 
-        // Mover slider
+        
         slider.style.transform = `translateX(-${index * 100}%)`;
         slider.style.transition = 'transform 0.5s ease-in-out';
 
-        // Actualizar dots activos
+   
         dots.forEach((dot, i) => {
             dot.classList.toggle('active', i === index);
         });
 
-        // Actualizar información del producto
+     
         modal.querySelector(`#${titleId}`).textContent = productos[index].titulo;
         modal.querySelector(`#${descriptionId}`).textContent = productos[index].descripcion;
 
-        // Cargar imagen actual y precargar adyacentes
+
         loadImage(index);
         loadImage(index - 1);
         loadImage(index + 1);

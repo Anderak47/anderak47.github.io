@@ -34,23 +34,22 @@ function initLazyLoadVideo() {
 // Comportamiento del botón de WhatsApp
 function setupWhatsAppButton() {
     const whatsappBtn = document.querySelector(".whatsapp-btn");
-    if (!whatsappBtn) return; // Solo si existe
+    if (!whatsappBtn) return; 
 
     function checkVisibility() {
         const section1 = document.querySelector("#inicio");
-        if (!section1) return; // Solo si existe
+        if (!section1) return; 
 
         const section1Rect = section1.getBoundingClientRect();
         whatsappBtn.classList.toggle("hidden", section1Rect.bottom > 0);
     }
 
     window.addEventListener("scroll", checkVisibility);
-    checkVisibility(); // Ejecutar inmediatamente
+    checkVisibility(); 
 }
 
 // Inicializar solo las funciones necesarias para esta página
 document.addEventListener("DOMContentLoaded", function() {
-    // Verificar si estamos en la página index (por la presencia de elementos únicos)
     if (document.querySelector(".swiper-container")) {
         initSwiper();
         initLazyLoadVideo();

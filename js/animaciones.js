@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
 
-    // Función 2: Efecto 3D en el logo (solo si existe)
+    // Función 2: Efecto 3D en el logo 
     const logoContainer = document.querySelector('.logo-3d-container');
     const logo = document.querySelector('.logo-3d');
 
