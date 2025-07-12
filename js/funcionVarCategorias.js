@@ -821,7 +821,7 @@ const fabricacionConfig = {
                 imagenes: ["/img/radiador1.webp"]
             },
             {
-                titulo: "Radiador en full aluminio de excabadora Sany",
+                titulo: "Radiador en full aluminio de excavadora Sany",
                 descripcion: "FABRICACIÓN",
                 imagenes: ["/img/excabadoraSany.webp"]
             },
@@ -899,7 +899,7 @@ const fabricacionConfig = {
     titleId: 'fabricacion-titulo',
     descriptionId: 'fabricacion-descripcion'
 };
-// Inicialización cuando el DOM esté listo
+
 document.addEventListener('DOMContentLoaded', function () {
     setupProductModal(radiadoresConfig);
     setupProductModal(accesoriosConfig);

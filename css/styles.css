@@ -117,22 +117,13 @@ body {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23faf3b4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
-@media (max-width: 768px) {
-  .navbar-toggler {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .mobile-arrow {
-    display: inline-block;
-    color: #faf3b4; 
-    font-size: 2.9rem;
-    transform: translateY(-1px);
-  }
+.hand-right {
+  transform: rotate(90deg);
+  display: inline-block;
+  font-size: 1.5rem; 
+  color: #ffc107;     
+  margin-left: 5px;   
 }
-
 
 /* Estilos para el footer */
 footer {
@@ -141,51 +132,40 @@ footer {
             #1b1b1b 50%,
             #141414 100%);
     border-top: 3px solid #e73a38;
-    /* Mantiene el borde rojo de tus títulos */
     margin-top: 60px;
     box-shadow: 0 -5px 15px rgba(28, 52, 94, 0.5);
-    /* Sombra azul oscuro */
     position: relative;
 }
 
-/* Contenedor del footer */
+
 .footer-content {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    /* Alinea los elementos al inicio */
     flex-wrap: wrap;
     gap: 20px;
-    /* Espacio entre elementos */
     padding: 10px 0;
 }
 
-/* Elementos del footer (Dirección, Teléfono, Correo) */
 .footer-item {
     color: #faf3b4;
     display: flex;
     flex-direction: column;
-    /* Coloca los elementos en columna */
     align-items: center;
     gap: 10px;
-    /* Espacio entre icono, línea y texto */
     font-size: 1rem;
 }
 
-/* Iconos de dirección, teléfono y correo */
+
 .footer-item i {
     font-size: 1.9rem;
     background: linear-gradient(to right, #f5e618, #000000);
-    /* Degradado de dorado a negro */
     -webkit-background-clip: text;
-    /* Aplica el degradado al texto (ícono) */
     background-clip: text;
-    /* Aplica el degradado al texto (ícono) */
     color: transparent;
-    /* Hace que el ícono sea transparente para mostrar el degradado */
+
 }
 
-/* Línea divisoria con efecto degradado */
 .footer-line {
     width: 50px;
     height: 3px;
@@ -193,16 +173,13 @@ footer {
     border-radius: 5px;
 }
 
-/* Iconos de redes sociales en fila (nuevo nombre de clase) */
 .footer-social-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-    /* Espacio arriba de los iconos */
 }
 
-/* Iconos de redes sociales */
 .footer-social-icons a {
     color: white;
     font-size: 1.9rem;
@@ -211,7 +188,6 @@ footer {
 
 .footer-social-icons a:hover {
     color: #e72b27;
-    /* Color azul claro al hacer hover */
 }
 
 .footer-social-icons a:hover img {
@@ -219,19 +195,15 @@ footer {
         brightness(0) saturate(100%) invert(16%) sepia(99%) saturate(4622%) hue-rotate(350deg);
 }
 
-/* Texto de copyright */
 .copyright {
     margin-top: 20px;
-    /* Espacio arriba del texto */
     font-size: 1.2rem;
     color: #faf3b4;
 }
 
 .alinearText {
     text-align: justify;
-    /* Justifica el texto */
     margin-bottom: 20px;
-    /* Espacio entre párrafos */
 }
 
 .negrita {
@@ -269,33 +241,26 @@ footer {
     text-align: center;
     margin: 20px 0;
     background: linear-gradient(90deg, #3f67a2, #3f67a2);
-    /* Gradiente de colores */
     background-clip: text;
-    /* Propiedad estándar */
     -webkit-background-clip: text;
-    /* Compatibilidad con navegadores antiguos */
     color: transparent;
-    /* Hace el texto transparente */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    /* Sombra del texto */
     opacity: 0;
     transform: translateY(20px);
-    /* Estado inicial */
     transition: opacity 2s ease-in-out, transform 2s ease-in-out;
-    /* Transición suave */
+
 }
 
 .textLlamativo.visible {
     opacity: 1;
     transform: translateY(0);
-    /* Estado final */
+
 }
 
 .bg-light {
     background-color: #ffffff !important;
 }
 
-/* Imagen hover*/
 .imagen-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 40px;
@@ -310,13 +275,11 @@ footer {
     from {
         opacity: 0;
         transform: translateY(20px);
-        /* Desplazamiento inicial */
     }
 
     to {
         opacity: 1;
         transform: translateY(0);
-        /* Posición final */
     }
 }
 
@@ -337,53 +300,41 @@ footer {
     filter: drop-shadow(0 2px 2px rgba(231, 43, 39, 0.4));
 }
 
-/* Carrusel de imagenes*/
 .swiper-container {
     width: 100%;
-    /* Ajusta el ancho según necesites */
     margin: 60px auto;
-    /* Asegura que esté centrado */
     position: relative;
     overflow: hidden;
-    /* Evita que los puntos se salgan */
     padding-bottom: 60px;
-    /* Espacio extra para la paginación */
     text-align: center;
-    /* Centra el contenido */
 }
 
 .swiper-wrapper {
     display: flex;
     align-items: center;
-    /* Centra las imágenes */
 }
 
 .swiper-slide {
     display: flex;
     justify-content: center;
     gap: 50px;
-    /* Espacio entre imágenes */
 }
 
 .swiper-slide img {
     width: 12%;
-    /* tamaño de imagenes */
     border-radius: 10px;
     margin: 0 50px;
-    /*aumenta la distancia entre imagenes*/
+
 }
 
-/* Paginación (puntos azules) */
 .swiper-pagination {
     position: absolute;
     bottom: 10px;
-    /* Ajusta la distancia debajo del carrusel */
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
 }
 
-/*stilo boton*/
 .btn-contact {
     display: inline-flex;
     align-items: center;
@@ -415,19 +366,16 @@ footer {
     transform: translateX(5px);
 }
 
-/* Redes sociales alineadas a la izquierda primera seccion*/
+
 .social-icons {
     display: flex;
     flex-direction: column;
-    /* Asegura que estén en vertical */
     align-items: center;
     justify-content: center;
     gap: 30px;
     width: 60px;
-    /* Espacio fijo para los iconos */
     position: absolute;
     left: 20px;
-    /* Ajusta la posición de los iconos */
     z-index: 3;
 }
 
@@ -454,24 +402,19 @@ footer {
 @media (max-width: 768px) {
     .social-icons {
         position: static;
-        /* Deja de estar absoluta para fluir con el contenido */
         flex-direction: row;
-        /* Cambia de vertical a horizontal */
         justify-content: center;
         align-items: center;
         gap: 20px;
         margin: 20px 0;
         width: 100%;
-        /* Ocupar todo el ancho del contenedor */
     }
 
     .social-icons a {
         font-size: 1.3rem;
-        /* Un poco más chico en móvil si lo prefieres */
     }
 }
 
-/* Botón de WhatsApp */
 .whatsapp-btn {
     position: fixed;
     bottom: 20px;
@@ -491,18 +434,15 @@ footer {
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Ícono dentro del botón */
 .whatsapp-btn i {
     font-size: 30px;
 }
 
-/* Ocultar el botón por defecto */
 .whatsapp-btn.hidden {
     opacity: 0;
     pointer-events: none;
 }
 
-/* Efecto de ondas */
 .whatsapp-btn::before {
     content: "";
     position: absolute;
@@ -514,7 +454,6 @@ footer {
     animation: pulse 1.5s infinite;
 }
 
-/* Animación de onda expansiva */
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -579,11 +518,9 @@ footer {
     width: 100%;
     height: 100%;
     background:
-        /* Gradiente radial para arriba/abajo */
         radial-gradient(ellipse at center,
             transparent 0%,
             rgba(0, 0, 0, 0.7) 100%),
-        /* Gradiente lineal para los costados (refuerzo) */
         linear-gradient(90deg,
             rgba(0, 0, 0, 0.7) 0%,
             transparent 20%,
@@ -591,41 +528,34 @@ footer {
             rgba(0, 0, 0, 0.7) 100%);
     z-index: 1;
     pointer-events: none;
-    /* Permite interactuar con elementos debajo */
+
 }
 
 @media (max-width: 768px) {
     .portada-container {
         width: 100%;
         overflow: hidden;
-        /* Corregido: overflow: 240px no es válido */
         position: relative;
         aspect-ratio: 16/9;
-        /* Relación más vertical para móviles */
         max-height: 60vh;
-        /* Altura reducida para móviles */
     }
 
     .portadaImge {
         width: 100%;
         height: 100%;
-        /* Ajustado al 100% del contenedor */
     }
 
     .original-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Asegura que la imagen cubra todo el espacio */
     }
 
     .portadaImge::after {
         background:
-            /* Gradiente radial más intenso para móviles */
             radial-gradient(ellipse at center,
                 transparent 10%,
                 rgba(0, 0, 0, 0.8) 100%),
-            /* Gradiente lateral más pronunciado */
             linear-gradient(90deg,
                 rgba(0, 0, 0, 0.8) 0%,
                 transparent 15%,
@@ -634,19 +564,16 @@ footer {
     }
 }
 
-/* Contenedor principal - centrado en móviles */
+
 .about-logo {
     width: 200px;
-    /* Tamaño para desktop */
     height: auto;
     margin: 0 auto;
-    /* Centra horizontalmente en móviles */
     display: flex;
     justify-content: center;
-    /* Centra el contenido (picture) */
 }
 
-/* Efecto 3D (se mantiene igual) */
+
 .logo-3d-container {
     display: block;
     width: 100%;
@@ -660,12 +587,9 @@ footer {
     transform-style: preserve-3d;
 }
 
-/* Ajustes para móviles */
 @media (max-width: 768px) {
     .about-logo {
         width: 250px;
-        /* Tamaño reducido para móviles */
         padding: 10px 0;
-        /* Espacio vertical opcional */
     }
 }

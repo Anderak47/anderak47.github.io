@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Función 1: Animaciones con IntersectionObserver
     const observer = new IntersectionObserver(
         (entries) => {
             const modalAbierto = document.querySelector('.modal-productos[style*="display: flex"]');
